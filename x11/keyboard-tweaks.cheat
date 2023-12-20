@@ -1,0 +1,12 @@
+% ctrl, capslock, strg, caps, lock, keyboard, setxkbmap
+
+# CapsLock as Ctrl
+setxkbmap -option ctrl:nocaps
+
+% swap, ctrl, capslock, strg, caps, lock, keyboard, setxkbmap
+# SWAP CapsLock and Ctrl
+setxkbmap -option ctrl:swapcaps
+
+% setxkbmap, reset, options
+# Reset setxkbmap options
+setxkbmap -option

@@ -1,0 +1,10 @@
+% receive, audio, pipewire, network, lan, sound
+
+# RECEIVE Audio over LAN with Pipewire
+pactl load-module module-native-protocol-tcp port=4656 listen=0.0.0.0
+
+
+% send, audio, pipewire, network, lan, sound
+
+# SEND Audio over LAN with Pipewire
+pactl load-module module-tunnel-sink server=tcp:<ip>:4656
